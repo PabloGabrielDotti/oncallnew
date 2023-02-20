@@ -6,13 +6,19 @@
   text-transform: uppercase;
   font-weight: 100;
   font-size: 3rem;
-  width: 680px;
-  margin: 146px auto 0;
+  width: 737px;
+  margin: 143px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   width: 680px;
-  margin: 22px auto 60px;
+  margin: 25px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -67,7 +73,7 @@
 }
 
 .u-section-2 .u-text-1 {
-  margin: 0 -77px 0 0;
+  margin: 44px -66px 0 0;
 }
 
 .u-section-2 .u-image-1 {
